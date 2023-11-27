@@ -1,0 +1,127 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: "poppins", sans-serif;
+      box-sizing: border-box;
+    }
+    
+    .container {
+      height: 100vh;
+      width: 100%;
+      padding: 0;
+      font-family: "Roboto Slab", serif;
+      position: relative;
+    }
+    
+    .container img {
+      height: 100vh;
+      bottom: 0;
+      /* top: -100px; */
+      width: 100%;
+    }
+    
+    nav {
+      height: 60px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      top: -100%;
+      bottom: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .logo {
+      width: 20px;
+      height: 0%;
+    
+    }
+    .links {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      color: blue;
+    }
+    
+    .links a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: blue;
+      font-weight: bold;
+    }
+    
+    .links .active {
+      color: #fff;
+      box-shadow: blue 1px 0 30px;
+    }
+    
+    .links a:hover {
+      color: #fff;
+      box-shadow: yellow 1px 0 30px;
+    }
+    
+    .heading {
+      height: 40px;
+      width: 100%;
+      font-size: 30px;
+      color: blue;
+     margin-right: 1100px;
+      text-shadow: blue 1px 0 30px;
+    }
+    .heading span {
+      font-size: 0px;
+      color: blue;
+      text-shadow: blue 1px 0 30px;
+    }
+    
+    .title {
+      position: relative;
+      top: -400px;
+      bottom: 0px;
+      font-size: 35px;
+      text-align: center;
+    }
+    .title h1,h2{
+      position: relative;
+      text-shadow: #fc0 1px 0 10px;
+      color: #fff;
+    }
+    .title form {
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+    }
+    .title form input {
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 0 20px;
+      font-size: 18px;
+      font-size: large;
+    }
+    .title form button {
+      background: lightcoral;
+      color: blue;
+      display: flex;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .category-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .category {
+      height: 60%;
+      width: 60%;
+      background: rgba(255,61);
+      margin: 0 10px;
+    }
+.video {
+      height: 500px;
+      width: 400px;
+}
